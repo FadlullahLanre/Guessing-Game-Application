@@ -5,15 +5,17 @@ var userName = prompt("Please enter your name ", "Tunde Kehinde\n");
 
 //prints the username.
 if(userName != null){
-console.log("Welcome " + userName + " to the guessing game!!\n");
+console.log(userName +", " + "Welcome"  + " to the guessing game!!\n");
 }
 
 
 //Guess function
 function Guess (a = 1, b = 2) {
+  
 //Guess between 1 and 2.   
 var randomNo = Math.floor(Math.random() * b) + a;
 var userGuess = prompt("Guess a number between 1 and 2");
+  
 //Stage 1.
 if (userGuess == randomNo){
   console.log("You've been promoted to stage 1.\n");
@@ -28,7 +30,7 @@ if (userGuess == randomNo){
     
   }else{
     console.log("Game Over!")
-
+    
   }
   
 }else {
