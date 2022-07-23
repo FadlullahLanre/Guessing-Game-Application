@@ -4,7 +4,7 @@
 
 *This is a Zuri Internship Task for the backend track (NodeJs)*
 
-A guessing number game application, that prompts a player to predict the generated number between a specified range, if the user gets is correct, the user is promoted to the next stage by increasing the range limit value by 1.
+A guessing number game application, that prompts a player to predict the generated number between a specified range, if the user's prediction correct, the user is promoted to the next stage by increasing the range limit value by 1.
 
 # Link to replit account
 
