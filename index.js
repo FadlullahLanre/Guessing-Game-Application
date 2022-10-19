@@ -1,13 +1,12 @@
 //Guessing game application
 
 //prompts user for their username.
-var name = prompt("Please enter your name ", "Tunde Kehinde\n");
+var name = prompt("Please enter your name ");fad
 
 //prints the username.
 if(name != null){
 console.log(name +", " + "Welcome"  + " to the guessing game!!\n");
 }
-
 
 // Guess function
 function Guess (a = 1, b = 2) {
